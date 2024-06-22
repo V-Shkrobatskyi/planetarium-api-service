@@ -35,6 +35,7 @@ from planetarium.serializers import (
 class ShowThemeViewSet(
     mixins.CreateModelMixin,
     mixins.ListModelMixin,
+    mixins.RetrieveModelMixin,
     GenericViewSet,
 ):
     queryset = ShowTheme.objects.all()
@@ -44,6 +45,7 @@ class ShowThemeViewSet(
 class PlanetariumDomeViewSet(
     mixins.CreateModelMixin,
     mixins.ListModelMixin,
+    mixins.RetrieveModelMixin,
     GenericViewSet,
 ):
     queryset = PlanetariumDome.objects.all()
@@ -192,6 +194,7 @@ class ReservationPagination(PageNumberPagination):
 class ReservationViewSet(
     mixins.ListModelMixin,
     mixins.CreateModelMixin,
+    mixins.RetrieveModelMixin,
     GenericViewSet,
 ):
     queryset = Reservation.objects.prefetch_related(
