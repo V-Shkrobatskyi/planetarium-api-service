@@ -126,7 +126,7 @@ class AstronomyShowViewSet(
             OpenApiParameter(
                 "show_themes",
                 type={"type": "list", "items": {"type": "number"}},
-                description="Filter by show theme id (ex. ?show_themes=2,5)",
+                description="Filter by show theme id (ex. ?show_themes=2,4)",
             ),
             OpenApiParameter(
                 "title",
@@ -190,7 +190,7 @@ class ShowSessionViewSet(viewsets.ModelViewSet):
                 type=OpenApiTypes.DATE,
                 description=(
                     "Filter by datetime of ShowSession "
-                    "(ex. ?date=2022-10-23)"
+                    "(ex. ?date=2024-06-24)"
                 ),
             ),
         ]
