@@ -80,7 +80,7 @@ class AuthenticatedAstronomyShowApiTests(TestCase):
         self.assertEqual(res.status_code, status.HTTP_200_OK)
         self.assertEqual(res.data, serializer.data)
 
-    def test_filter_movies_by_genres(self):
+    def test_filter_astronomy_shows_by_show_themes(self):
         show_theme1 = ShowTheme.objects.create(name="Show theme 1")
         show_theme2 = ShowTheme.objects.create(name="Show theme 2")
 
@@ -148,7 +148,7 @@ class AdminAstronomyShowApiTests(TestCase):
         )
         self.client.force_authenticate(self.user)
 
-    def test_create_movie(self):
+    def test_create_astronomy_show(self):
         payload = {
             "title": "AstronomyShow",
             "description": "Description",
