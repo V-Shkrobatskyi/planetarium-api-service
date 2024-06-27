@@ -14,9 +14,9 @@ RUN mkdir -p /files/media
 RUN adduser \
     --disabled-password \
     --no-create-home \
-    my_user
+    django_user
 
-RUN chown -R my_user /files/media
+RUN chown -R django_user /files/media
 RUN chmod -R 755 /files/media
 
-USER my_user
+USER django_user
