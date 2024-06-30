@@ -2,3 +2,4 @@
 Dockerfile
 .idea
 docker-compose.yaml
+.demo_screenshots
