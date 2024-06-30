@@ -126,31 +126,37 @@ Now you can use "access" token with **ModHeader** or **Requestly** plugin for ex
 
 You can visit these pages:
 
-    http://127.0.0.1:8000/api/planetarium/ - with planetarium api root
+    http://127.0.0.1:8000/api/planetarium/
+with planetarium api root:
 
 ![Default Home View](demo_screenshots/planetarium_api_overview.PNG "planetarium api root")
 
-    http://127.0.0.1:8000/api/planetarium/astronomy_shows/ - with astronomy shows list
+    http://127.0.0.1:8000/api/planetarium/astronomy_shows/
+with astronomy shows list:
 
 ![Default Home View](demo_screenshots/astronomy_show_list.PNG "astronomy shows list")
 
-    http://127.0.0.1:8000/api/planetarium/astronomy_shows/?title=of - with astronomy shows list with title filter
+    http://127.0.0.1:8000/api/planetarium/astronomy_shows/?title=of
+with astronomy shows list with title filter:
 
 ![Default Home View](demo_screenshots/astronomy_show_list_with_filter.PNG "astronomy shows list with title filter")
 
-    http://127.0.0.1:8000/api/planetarium/show_sessions/ - with show sessions list
+    http://127.0.0.1:8000/api/planetarium/show_sessions/
+with show sessions list:
 
 ![Default Home View](demo_screenshots/show_session_list.PNG "show sessions list")
 
-    http://127.0.0.1:8000/api/planetarium/show_sessions/3/ - with show session detail
+    http://127.0.0.1:8000/api/planetarium/show_sessions/3/
+with show session detail:
 
 ![Default Home View](demo_screenshots/show_session_detail.PNG "show session detail")
 
-    http://127.0.0.1:8000/api/planetarium/reservations/ - with reservations list
+    http://127.0.0.1:8000/api/planetarium/reservations/
+with reservations list:
 
 ![Default Home View](demo_screenshots/reservation_list.PNG "reservations list")
 
-If you want, you can explore the site with other credentials:
+You can explore the test data with other credentials:
 
 * Email - `luisa@test.com`
 * Password - `123qweASDrty`
