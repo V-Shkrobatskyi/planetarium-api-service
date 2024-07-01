@@ -156,6 +156,11 @@ with reservations list:
 
 ![Default Home View](demo_screenshots/reservation_list.PNG "reservations list")
 
+    http://http://127.0.0.1:8000/api/doc/swagger/
+with documentation swagger:
+
+![Default Home View](demo_screenshots/documentation_swagger.PNG "documentation swagger")
+
 You can explore the test data with other credentials:
 
 * Email - `luisa@test.com`
